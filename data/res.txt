@@ -1,0 +1,28 @@
+-OUTPUT = bin/ResPack0.bin
+-FORMAT = 0
+-HEADER_FILE = bin/ResPack0.java
+-HEADER_FILE_FORMAT = JAVA
+
+
+
++string/bin/s.bin					STRINGS_PACK
++img/1.png							IMAGE_PACK
++img/img1_4x4.png					IMAGE1_4x4
++img/img1_8x8.png					IMAGE1_8x8
++img/img1_10x10.png					IMAGE1_10x10
++img/img1_12x12.png					IMAGE1_12x12
++img/img1_16x16.png					IMAGE1_16x16
++img/img1_20x20.png					IMAGE1_20x20
++img/img1_32x32.png					IMAGE1_32x32
++img/img1_48x48.png					IMAGE1_48x48
++img/img1_64x64.png					IMAGE1_64x64
+
++img/img2_4x4.png					IMAGE2_4x4
++img/img2_8x8.png					IMAGE2_8x8
++img/img2_10x10.png					IMAGE2_10x10
++img/img2_12x12.png					IMAGE2_12x12
++img/img2_16x16.png					IMAGE2_16x16
++img/img2_20x20.png					IMAGE2_20x20
++img/img2_32x32.png					IMAGE2_32x32
++img/img2_48x48.png					IMAGE2_48x48
++img/img2_64x64.png					IMAGE2_64x64

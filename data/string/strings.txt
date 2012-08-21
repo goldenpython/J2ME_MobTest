@@ -1,0 +1,129 @@
+-OUTPUT = bin/s.bin
+-FORMAT = 0
+-HEADER_FILE = bin/STRPACK.java
+-HEADER_FILE_FORMAT = JAVA
+
+
++"Menu Title"					MAIN_MENU_TITLE
++"Display size"					DISPLAY_SIZE
++"Key Codes"					KEY_CODES
++"Video"						VIDEO
++"Audio"						AUDIO
++"CPU"							CPU
++"Memory"						MEMORY
++"Exit"							EXIT
+
++"Back"							BACK
+
++"CPU Tests"					CPU_MENU_TITLE
++"Arithmetic"					ARITHMETIC
++"Logical"						LOGICAL
++"Sorting"						SORTING
++"Prime numbers"				PRIME_NUMBERS
++"Recursive"					RECURSIVE
+
++"Arithmetic Tests"				ARITHMETIC_TESTS
++"Add"							ADD
++"Sub"							SUB
++"Multiply"						MULTIPLY
++"Divide"						DIVIDE
+
+
+#Screen size screen
++"Width: "								WIDTH
++"Height: "								HEIGHT
++"'5' to return\nto main menu"			PRESS_5_TO_RETURN
++"'*' to keep\nwidth and height"		PRESS_STAR_TO_RETURN
+
+#Display result screen
++"* Back"								PRESS_STAR_FOR_BACK
+
+#Logical
++"Logical Tests"						LOGICAL_MENU_TITLE
++"Shift Left"							SHIFT_LEFT
++"Shift Right"							SHIFT_RIGHT
++"AND"									AND
++"OR"									OR
++"XOR"									XOR
+
+#Sorting
++"Sorting Tests"						SORTING_TESTS
++"Bubbke Sort"							BUBBLE_SORT
++"Quicksort"							Q_SORT
++"Mergesort"							MERGE_SORT
++"HeapSort"								HEAP_SORT
+
+#VIDEO
++"Video tests"							VIDEO_TESTS
++"Video memory size"					VIDEO_MEMORY_SIZE
++"Geom. tests"							GEOMETRIC_PRIMITIVES_TESTS
++"Image Test"							IMAGE_TESTS
+
+#Geometric primitives tests
++"DrawRect test"						DRAW_RECT_TEST
++"FillRect test"						FILL_RECT_TEST
++"DrawLine test"						DRAW_LINE_TEST
++"FillTriangle test"					FILL_TRIANGLE_TEST
++"DrawArc test"							DRAW_ARC_TEST
++"FillArc test"							FILL_ARC_TEST
+
+#Image Tests
++"DrawImage test"						DRAW_IMAGE_TEST
++"DrawRegion test"						DRAW_REGION_TEST
+
+#Image Sizes
++"4*4"									IMAGE_TEST_4X4
++"8*8"									IMAGE_TEST_8X8
++"10*10"								IMAGE_TEST_10X10
++"12*12"								IMAGE_TEST_12X12
++"16*16"								IMAGE_TEST_16X16
++"20*20"								IMAGE_TEST_20X20
++"32*32"								IMAGE_TEST_32X32
++"48*48"								IMAGE_TEST_48X48
++"64*64"								IMAGE_TEST_64X64
+
+#Transform
++"Transform"							IMAGE_TRANSFORM
++"NONE"									IMAGE_TRANS_NONE
++"ROT90"								IMAGE_TRANS_ROT90
++"ROT180"								IMAGE_TRANS_ROT180
++"ROT270"								IMAGE_TRANS_ROT270
++"MIRROR"								IMAGE_TRANS_MIRROR
++"MIRROR_ROT90"							IMAGE_TRANS_MIRROR_ROT90
++"MIRROR_ROT180"						IMAGE_TRANS_MIRROR_ROT180
++"MIRROR_ROT270"						IMAGE_TRANS_MIRROR_ROT270
+
+#VIDEO MEMORY SIZE
++"Allocate images"						ALLOCATE_IMAGES
++"100*100"								ALLOCATE_IMAGES_100
++"50*50"								ALLOCATE_IMAGES_50
++"20*20"								ALLOCATE_IMAGES_20
++"10*10"								ALLOCATE_IMAGES_10
++"5*5"									ALLOCATE_IMAGES_5
++"4*4"									ALLOCATE_IMAGES_4
+
++"Number of\nallocated images:"			NUMBER_OF_ALLOCATED_IMAGES
++"Total allocated\nnumber of pixels:"	TOTAL_ALLOCATED_NUMBER_OF_PIXELS
++"5: System.gc()"						VIDEO_MEMORY_HELP
+
+
++"seconds"								SECONDS
+
++"Please wait"							PLEASE_WAIT
+
++"Allocated\nmem:"						ALLOCATED_MEMORY
++"Reported\nfree mem:"					REPORTED_FREE_MEMORY
++"KB"									KILO_BYTES
++"MB"									MEGA_BYTES
++"b"									BYTES
++"# Help"								SHARP_FOR_HELP
++"1: allocate 100KB\n2: allocate 50KB\n3:allocate 5KB\n4: allocate 1KB\n5: System.gc()" MEMORY_HELP
+
+#Key codes screen
++"Softkey1: "							SOFTKEY1
++"Softkey2: "							SOFTKEY2
++"Left: "								LEFT
++"Right: "								RIGHT
++"Up: "									UP
++"Down: "								DOWN
++"Select: "								SELECT
